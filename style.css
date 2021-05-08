@@ -8,10 +8,12 @@ a:hover {
   color: greenyellow;
 }
 
+@media (max-width: 800px) {}
 .content {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 1em;
+}
 }
 
 h3 {
@@ -20,10 +22,4 @@ h3 {
 
 p {
   text-align: justify;
-}
-
-@media (max-width: 800px) {
-  .content{
-    display: block;
-  }
 }
