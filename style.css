@@ -1,19 +1,29 @@
 * {
   font-family: Book Antiqua;
-  max-width: 30rem;
-  margin: 0 auto;
+  margin: 1em;
   line-height: 1.5;
 }
 
-header {
-  width: auto;
-  border: 1px dotted green;
-  padding: 25px;
-  margin-top: 25px;
-  margin-bottom: 25px;
+a:hover {
+  color: greenyellow;
 }
 
 section {
-  margin-bottom: 25px;
-  margin-top: 25px
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1em;
+}
+
+h3 {
+  text-align: left;
+}
+
+p {
+  text-align: justify;
+}
+
+@media (max-width: 800px) {
+  section{
+    display: block;
+  }
 }
