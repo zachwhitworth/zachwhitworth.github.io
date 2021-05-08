@@ -8,7 +8,7 @@ a:hover {
   color: greenyellow;
 }
 
-section {
+.content {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 1em;
@@ -23,7 +23,7 @@ p {
 }
 
 @media (max-width: 800px) {
-  section{
+  .content{
     display: block;
   }
 }
