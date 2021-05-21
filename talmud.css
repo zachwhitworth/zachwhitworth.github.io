@@ -1,0 +1,24 @@
+.center {
+  float: left;
+  width: 50%;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  shape-outside: content-box;
+  margin-top: 10em;
+  shape-margin: 1em;
+}
+
+.right {
+  float: right;
+  width: 66.6%;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.left {
+  margin: 1em;
+}
+
+* {
+  text-align: justify;
+}
