@@ -61,6 +61,14 @@ h1 {
   display: none;
 }
 
+.titleright {
+  text-align: right;
+}
+
+.titlecenter {
+  text-align: center;
+}
+
 @media (max-width: 600px) {
   body, .left, .center, .right {
     display: block;
@@ -77,4 +85,8 @@ ol {
   display: block;
   margin: 0.25em;
   font-size: 95%;
+}
+h3, .titleright {
+  text-align: center;
+}
 }
