@@ -1,3 +1,15 @@
+* {
+  font-family: Book Antiqua, Georgia;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+body {
+  margin-right: auto;
+  margin-left: auto;
+  width: 60em;
+}
+
 .center {
   float: left;
   width: 50%;
@@ -16,9 +28,53 @@
 }
 
 .left {
-  margin: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  margin-top: 2em;
 }
 
-* {
-  text-align: justify;
+.right {
+  margin-top: 2em;
+}
+
+h3 {
+  margin-top: auto;
+}
+
+a:hover {
+  color: greenyellow;
+}
+
+header, ol {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.menu {
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+h1 {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  body, .left, .center, .right {
+    display: block;
+    margin-right: 0.25em;
+    margin-left: 0.25em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-size: 95%;
+    width: auto;
+    float: none;
+    shape-outside: none;
+}
+ol {
+  display: block;
+  margin: 0.25em;
+  font-size: 95%;
 }
