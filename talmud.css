@@ -2,6 +2,7 @@
   font-family: Book Antiqua, Georgia;
   line-height: 1.5;
   text-align: justify;
+  background-color: bisque;
 }
 
 body {
@@ -42,7 +43,7 @@ h3 {
   margin-top: auto;
 }
 
-a:hover {
+a:hover, a:focus {
   color: greenyellow;
 }
 
