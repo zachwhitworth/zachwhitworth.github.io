@@ -8,7 +8,7 @@ section {
   margin: 2em;
 }
 
-a:hover {
+a:hover, a:focus {
   color: greenyellow;
 }
 
