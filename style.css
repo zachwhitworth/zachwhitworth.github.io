@@ -42,8 +42,9 @@ p {
 }
 
 @media (max-width: 600px) {
-  .content, body, ol {
+  .content, body, ol, section {
     display: block;
     margin: 0.25em;
-    font-size: 95%;
+    font-size: 90%;
+}
 }
